@@ -57,7 +57,7 @@ public class MainActivity extends Activity implements OnClickListener {
 				.setContent(R.id.second));
 		th.addTab(th.newTabSpec("third").setIndicator("tab3")
 				.setContent(R.id.third));
-		th.addTab(th.newTabSpec("forth").setIndicator("tab4")
+		th.addTab(th.newTabSpec("forth").setIndicator("开源项目")
 				.setContent(R.id.forth));
 		
 		IntentFilter filter=new IntentFilter();
